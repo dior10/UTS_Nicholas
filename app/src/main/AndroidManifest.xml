@@ -13,6 +13,13 @@
         android:theme="@style/Theme.UTS_Nicholas"
         tools:targetApi="31">
         <activity
+            android:name=".ProfilMahasiswa"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
